@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP push&print</title>
+</head>
+<link rel="stylesheet" href="signup.css">
+<body>
+    <section class="section1">
+        <div class="main-div">
+            <div class="display-div"></div>           
+               <p class="kara">V.VIDEOS</p>
+            <div class="reg-form">
+                <div class="crea">Create a new account</div>
+                <div class="itsq">It's quick and easy.</div>
+                <hr>
+                <form action="">
+                    <div class="formm">
+                        <div class="divfirst">
+                            <input id="firstname" class="input-first" type="text" placeholder="First name" required>
+                            <input id="lastname" class="input-first" type="text" placeholder="Last name" required>
+                        </div>
+                        <div class="divsecond">
+                            <input id="Email" class="input-second" type="email" placeholder="Mobile number or email address">
+                        </div>
+                        <div class="divsecond">
+                            <input id="password" class="input-second" type="password" placeholder="New password">
+                        </div>
+                        <p class="paara">Date of birth ?</p>
+                        <div class="divsecond1">
+                            <input id="Date" type="number" class="select-date" placeholder="Date">
+                            <input id="month" class="select-month" type="text" placeholder="Month">
+                            <input id="year" class="select-date" type="number" placeholder="Year">
+                        </div>
+                        <p class="paara">Gender ?</p>
+                        <div class="divsecond1">
+                            <input id="Gender" class="input-second" type="text" placeholder="Gender">
+                        </div>
+                        <p class="pple">
+                            People who use our service may have uploaded your contact information to V.videos. <a
+                                href="#">Learn more</a>.
+                        </p>
+                        <p class="pple">
+                            By clicking Sign Up, you agree to <a href="#">our Terms</a>, <a href="#">Data Policy</a> and
+                            <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at
+                            any time
+                        </p>
+                        <div class="butsumb">
+                            <button onclick="signup(event)" class="mrsignup ">Sign Up</button>
+                        </div>
+                        <a href="../Sign in page/index.html">
+                            <p class="alre">Already have an account?</p>
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<script src="signup.js"></script>
